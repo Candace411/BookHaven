@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Haven - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <img src="images/Book haven logo.png" alt="Client Logo" width="150">
+    <h1 class="title">Book Haven Bookstore</h1>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="gallery.html">Gallery</a> |
+        <a href="about.html">About Us</a> |
+        <a href="custom.html">Custom Page</a>
+    </nav>
+</header>
+
+<!-- Main Content -->
+<main>
+
+    <!-- Welcome Section -->
+    <section id="welcome">
+        <h2>Welcome to Book Haven!</h2>
+        <p>Book Haven Bookstore is your one-stop shop for books, local authors, and community events. We are dedicated to providing a welcoming environment for readers of all ages and fostering a love for literature.</p>
+        <p>Explore our wide selection of books, connect with local authors, and join our community events that celebrate the joy of reading.</p>
+    </section>
+
+    <!-- Client Highlights -->
+    <section id="highlights">
+        <h2>Why Choose Book Haven?</h2>
+        <ul>
+            <li>Wide selection of books across all genres</li>
+            <li>Personalized recommendations from our staff</li>
+            <li>Community events and author signings</li>
+        </ul>
+    </section>
+
+    <!-- Shopping Promos -->
+    <section id="promos">
+        <h2>Special Offers</h2>
+        <div class="promo-banner">Buy 2 Get 1 Free on select titles this month!</div>
+        <div class="promo-banner">Free shipping for orders over $50!</div>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="products">
+        <h2>Featured Books</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="images/Ball.png" alt="Book 1">
+                <p>A magazine about pickleball. It details all the rules and tips on perfecting your game.</p>
+            </div>
+            <div class="product">
+                <img src="images/Brie Mine.png" alt="Book 2">
+                <p>A book for cheese lovers. It has over 2,000 types of cheeses and includes the country they originated in.</p>
+            </div>
+            <div class="product">
+                <img src="images/Glory Riders.png" alt="Book 3">
+                <p>A book about bikers. For people who love traveling the open road.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shopping Perks -->
+    <section id="perks">
+        <h2>Shopping Perks</h2>
+        <ul>
+            <li>Free shipping on orders over $50</li>
+            <li>Exclusive members-only discounts</li>
+            <li>Reward points for every purchase</li>
+        </ul>
+    </section>
+
+    <!-- Categories of Products -->
+    <section id="categories">
+        <h2>Shop by Category</h2>
+        <ul>
+            <li>Fiction</li>
+            <li>Non-Fiction</li>
+            <li>Children's Books</li>
+            <li>Graphic Novels</li>
+            <li>Local Authors</li>
+        </ul>
+    </section>
+
+</main>
+
+<!-- Footer -->
+<footer>
+    <p>Subscribe to our newsletter:</p>
+    <input type="email" placeholder="Enter your email">
+    <button id="subscribeBtn">Subscribe</button>
+
+    <div class="social-links">
+        <a href="#">Facebook</a> | 
+        <a href="#">Twitter</a> | 
+        <a href="#">Instagram</a>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="gallery.html">Gallery</a> |
+        <a href="about.html">About Us</a> |
+        <a href="custom.html">Custom Page</a>
+    </nav>
+
+    <p class="caption">© 2026 Book Haven Bookstore</p>
+
+    <script>
+        const subscribeButton = document.getElementById("subscribeBtn");
+        subscribeButton.onclick = function() {
+            alert("Thank you for subscribing.");
+        };
+    </script>
+</footer>
+
+</body>
+</html>
